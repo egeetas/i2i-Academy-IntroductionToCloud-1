@@ -1,42 +1,43 @@
-Introduction To Cloud
+# Introduction To Cloud
 
-This repository contains the solution for the Introduction to Cloud assignment completed as part of the i2i Academy Training Program.
+## Overview
 
-Objective
+This repository contains the solution developed for the *Introduction to Cloud* assignment as part of the **i2i Academy Training Program**.
 
-The objective of this assignment was to gain hands-on experience with cloud technologies by creating and managing a virtual machine on Google Cloud Platform.
+## Objective
 
-Tasks Completed
+The purpose of this assignment was to gain practical experience with cloud computing technologies by creating, configuring, and managing a virtual machine on **Google Cloud Platform (GCP)**. The assignment also aimed to familiarize students with remote access, network connectivity verification, and basic file operations within a cloud environment.
 
-* Created an Ubuntu Virtual Machine on Google Cloud Platform (GCP)
-* Verified network connectivity using a ping test
-* Connected to the VM via SSH
-* Created and verified a text file (hello.txt)
+## Tasks Completed
 
-Screenshots
+The following tasks were successfully completed:
 
-Virtual Machine
+- Created an Ubuntu Virtual Machine on Google Cloud Platform (GCP)
+- Verified network connectivity using ICMP ping requests
+- Established a secure SSH connection to the virtual machine
+- Created and verified a text file named `hello.txt`
 
-📷 Insert Screenshot 1 – Running Ubuntu VM on Google Cloud
+## Screenshots
 
-Ping Test
+### Virtual Machine Creation
+<img width="1511" height="866" alt="Ekran Resmi 2026-06-29 14 07 05" src="https://github.com/user-attachments/assets/aa044ed0-4cf7-4570-b4d6-6f20716fa748" />
 
-📷 Insert Screenshot 2 – Successful ping responses from local terminal
 
-SSH Connection
+### Network Connectivity Test
+<img width="1512" height="982" alt="Ekran Resmi 2026-06-29 14 06 08" src="https://github.com/user-attachments/assets/8d15da9c-9fbd-4558-bda1-10da93d25350" />
 
-📷 Insert Screenshot 3 – SSH session connected to the VM
 
-File Creation
+### SSH Connection, File Creation and Verification
+<img width="1512" height="982" alt="Ekran Resmi 2026-06-29 14 05 38" src="https://github.com/user-attachments/assets/2eccefc2-19ad-4608-abec-bd8aa8cf3f80" />
 
-📷 Insert Screenshot 4 – hello.txt creation and verification
 
-Commands Used
+## Commands Used
 
+```bash
 echo "Hello i2i Academy!" > hello.txt
 cat hello.txt
+```
 
-Author
+## Result
 
-Ege Taş
-Sabancı University – Computer Science
+The virtual machine was successfully deployed and configured on Google Cloud Platform. Network connectivity was verified, remote access was established through SSH, and file operations were successfully performed on the cloud instance. The objectives of the assignment were achieved successfully.
